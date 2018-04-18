@@ -9,9 +9,6 @@ for (botao of botoesExpandir) {
 	botao.addEventListener('click', function(e) {
 		let bt = e.target;
 		let paragrafo = bt.parentNode;
-		console.log(e);
-		console.log(paragrafo);
-		console.log(paragrafo.classList);
 		// Verifica se botão está expandido
 		if (paragrafo.classList.contains('expandido')) {
 			// Elimina a classe
