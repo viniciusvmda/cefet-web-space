@@ -187,12 +187,12 @@ main {
   margin: 0 auto;
 }
 
-#galeria, #slide {
+#galeria, .slide {
   width: 400px;
   height: 300px;
 }
 
-#slide {
+.slide {
   border: 1px solid gray;
 }
 
@@ -217,4 +217,8 @@ main {
 
 #proximo {
   float: right;
+}
+
+.invisivel {
+  display: none;
 }
